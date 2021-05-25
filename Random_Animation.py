@@ -20,7 +20,7 @@ def update(frame):
     ax[0].set_title("Oak")
     ax[0].imshow(Trees[frame], cmap = "gray", interpolation = "nearest")
     ax[1].set_title("Spruce")
-    ax[1].imshow(Trees[frame+100], cmap = "gray", interpolation = "nearest")
+    ax[1].imshow(Trees[frame+99], cmap = "gray", interpolation = "nearest")
     
     # plt.savefig("D:\Video\Graph\graph_"+str(section)+".png")
 
