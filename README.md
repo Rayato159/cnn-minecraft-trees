@@ -21,14 +21,8 @@ And I create a class "My model" to pack all layer of model stick together.
 
 ```python
 class MyModel:
-    
     def __init__(self, X_train, X_test, y_train, y_test):
-        
-        self.X_train = X_train
-        self.X_test = X_test 
-        self.y_train = y_train
-        self.y_test = y_test
-        
+        ...
         self.CNN_model = Sequential()
         
         #Layer_1
