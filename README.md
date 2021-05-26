@@ -15,7 +15,7 @@ I generate all images of tree by drawing and try some random by each types patte
 Left is "Oak" and Right is "Spruce". Sample here.  
 ![Sample](https://github.com/Rayato159/Minecraft_Tree/blob/main/sample.png)  
 
-## Training Model
+## Model
 As I mention before, I used Convolutional Neural Network model. 
 And I create a class "My model" to pack all layer of model stick together.  
 
