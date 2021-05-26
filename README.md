@@ -53,4 +53,4 @@ class MyModel:
 CNN_model.fit(X_train, y_train, batch_size=20, epochs=5)
 ```
 ## Result
-Accuracy score of this model = 1.0 (Score from test and useen data).
+Accuracy score of this model = 1.0 (Score from test and unseen data).
