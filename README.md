@@ -47,7 +47,7 @@ class MyModel:
         metrics=["accuracy"])
 ```
 ***This model is generate by trial and error.
-## Fiting Model  
+## Fitting Model  
 ```python
 CNN_model.fit(X_train, y_train, batch_size=20, epochs=5)
 ```
