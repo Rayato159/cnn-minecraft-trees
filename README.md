@@ -24,8 +24,6 @@ And I create a class "My model" to pack all layer of model stick together.
 class MyModel:
     def __init__(self, X_train, X_test, y_train, y_test):
         ...
-        self.CNN_model = Sequential()
-        
         #Layer_1
         self.CNN_model.add(Conv2D(16, (3,3), input_shape=(16,16,1)))
         self.CNN_model.add(Activation("relu"))
@@ -43,9 +41,6 @@ class MyModel:
         #Layer_4_output
         self.CNN_model.add(Dense(2))
         self.CNN_model.add(Activation("softmax"))
-        
-        self.CNN_model.compile(loss=categorical_crossentropy, optimizer=Adam(),
-        metrics=["accuracy"])
 ```
 ***This model is generate by trial and error.
 ## Fitting Model  
